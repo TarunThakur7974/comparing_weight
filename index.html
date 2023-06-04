@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparing Weight On Other Planets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="head">
+        <h1> Comparing Weight On Other Planets</h1>
+    </div>
+
+    <div class="main">
+        <div class="container_one">
+            <div style="height: 140px; margin: 20px;">
+                <img src="earth.jpg" alt="earth">
+            </div>
+            <div class="inputdata">
+                <input placeholder="00" maxlength="3" max="3" oninput="change()" type="number"><span>KG</span>
+            </div>
+            <div class="box_earth">
+                <h3>Earth</h3>
+            </div>
+        </div>
+        <div class="container_two">
+            <div style="height: 150px; margin: 20px;">
+                <img class="planetsimg" alt="planets images">
+            </div>
+            <div class="show_data">
+                <p id="answer">00</p> <span>KG</span>
+            </div>
+            <div class="box_planet">
+                <!-- onchange="changedata()" This method also you can use   -->
+                <select class="planets" id="planets">
+                    <option value="Sun">Sun</option>
+                    <option value="Moon">Moon</option>
+                    <option value="Jupiter">Jupiter</option>
+                    <option value="Mercury">Mercury</option>
+                    <option value="Saturn">Saturn</option>
+                    <option value="Neptune">Neptune</option>
+                    <option value="Uranus">Uranus</option>
+                    <option value="Venus">Venus</option>
+                    <option value="Pluto">Pluto</option>
+                    <option value="Mars">Mars</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="compare_data"></p>
+        <p id="about"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

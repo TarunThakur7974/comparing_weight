@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Nanum+Gothic&family=Rajdhani:wght@300&family=Roboto:wght@300&family=Signika+Negative&family=Tilt+Neon&family=Ubuntu:wght@300;400&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    background-color: rgb(241 241 241 / 41%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+.main {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 8%;
+}
+
+.container_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    margin-left: 12px;
+    padding: 3px;
+    width: 15rem;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 0px 0px 24px 0px #2b1634;
+}
+
+.container_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box_earth {
+    margin-right: 12px;
+    width: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 24px 0px #2b1634;
+}
+
+.box_planet option {
+    text-align: center;
+}
+
+.box_planet {
+    margin-right: 12px;
+    box-shadow: 0px 0px 20px 5px hsl(47, 100%, 84%);
+}
+
+select {
+    font-size: 1.2rem;
+    width: 15rem;
+    
+}
+
+.show_data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputdata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show_data p {
+    margin-left: 12px;
+    width: 15rem;
+    border: 1px solid black;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 5px hsl(47, 100%, 84%);
+}
+
+span {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+
+}
+
+.footer {
+    margin-top: 50px;
+    height: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    font-weight: 700;
+}
+
+
+/* Media query start's here */
+/* Responsive the page */
+
+@media (max-width: 550px) {
+    select {
+        width: 8.4rem;
+    }
+
+    .show_data {
+        width: 8.4rem;
+    }
+
+    .box_earth {
+        width: 8.4rem;
+    }
+
+    input {
+        width: 8.4rem;
+    }
+}
